@@ -1,6 +1,6 @@
 # Global Active Power - making plot with line , x Lable as time
 
-# # Reading data, with proper arguments
+# Reading data, with proper arguments
 data <- read.table("household_power_consumption.txt", sep=';', header=T, 
                    colClasses = c('character', 'character', 'numeric', 
                                   'numeric', 'numeric', 'numeric', 'numeric', 
